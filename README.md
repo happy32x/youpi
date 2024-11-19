@@ -3,7 +3,6 @@
 - **Launch year :** 2015  
 - **Current status :** Abandoned in 2017
 
-
 # Description 
 YouPi was an instant messaging application that aimed to combine simplicity, speed and privacy. Developed at a time when digital messaging was booming, it stood out for its minimalist interface and innovative features for rapid communication.
 
@@ -36,3 +35,10 @@ The application's source code is entirely present on this repository and is comp
 
 # DataBase
 The database file is located in the folder database\database.sql
+
+# Footage:
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/gzLFnQ_0yG0/0.jpg)](https://www.youtube.com/watch?v=gzLFnQ_0yG0)
+
+
+# First Publication
+https://www.facebook.com/happyngounou.julienchristian/videos/1001154333345811
