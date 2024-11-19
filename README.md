@@ -1,7 +1,7 @@
 # Presentation  
-**Application name :** YouPi  
-**Launch year :** 2015  
-**Current status :** Abandoned in 2017
+- **Application name :** YouPi  
+- **Launch year :** 2015  
+- **Current status :** Abandoned in 2017
 
 
 # Description 
@@ -22,7 +22,7 @@ YouPi was an instant messaging application that aimed to combine simplicity, spe
 **Completely free:** no advertising  
 
 # Decline and abandonment
-*Despite a modest but loyal user base, YouPi faced several challenges:*
+*Despite a modest but loyal user base, YouPi faced several challenges:*  
 **Lack of funding:** Lack of a solid business model.  
 **Fierce competition:** Dominated by giants like WhatsApp, Telegram and Messenger.  
 **Unresolved technical issues:** Rare updates and persistent bugs.  
