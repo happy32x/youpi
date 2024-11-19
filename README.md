@@ -1,7 +1,7 @@
 # Presentation
-Application name : YouPi
-Launch year : 2015
-Current status : Abandoned in 2017
+**Application name :** YouPi
+**Launch year :** 2015
+**Current status :** Abandoned in 2017
 
 # Description 
 YouPi was an instant messaging application that aimed to combine simplicity, speed and privacy. Developed at a time when digital messaging was booming, it stood out for its minimalist interface and innovative features for rapid communication.
