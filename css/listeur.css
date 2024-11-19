@@ -1,0 +1,252 @@
+.bloc_du_listeur
+{
+	width: 100%px;
+    height: 117px;
+
+    margin: auto;
+	border:  0px solid blue;
+
+    overflow: hidden;
+    box-shadow: 0px 0px 0px black inset;
+
+    background-color: #fff;
+}
+
+.bloc_du_listeur_fleche_indice
+{
+    position: absolute;
+    margin-left: 650px;
+    margin-top: -5px;
+}
+
+.affichage_de_personnes
+{
+	width: 890px;
+	height: 100px;
+
+	border:  0px solid black;
+	background-color: #fff;
+
+	border-radius: 10px 10px 10px 10px;
+    padding: 20px 20px 0px 20px;
+
+	margin: 24px 0px 0px 0px;
+
+    margin: auto;
+    margin-top: 1px;
+
+    opacity: 1;
+
+}
+
+.lumiere_affichage_de_personnes
+{
+    opacity: 0.1;
+    position: absolute;
+
+    border-radius: 5px 5px 5px 5px;
+    border: 0px solid blue;
+
+    margin: 20px 0px 0px 188px;
+    z-index: 2;
+}
+
+.affichage_de_personnes_fleche_indice_d
+{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -35px;
+}
+
+.trou_du_cul
+{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 908px;
+}
+
+#go_to_top_4
+{
+    width: 45px;
+	height: 45px;
+
+    background-color: white;
+    margin-left: -45px;
+
+    position: absolute;
+    border-radius: 0px 23px 23px 0px;
+
+    margin-top: 19px;
+    opacity: 0.5;
+
+    z-index: 4;
+}
+
+#go_to_top_4:hover
+{
+    opacity: 0.6;
+}
+
+#go_to_top_4:active
+{
+    opacity: 0.9;
+}
+
+#conteneur_affichage_de_personnes
+{
+    width: 895px;
+	height: 82px;
+
+	border: 0px solid rgb(55,55,55);
+	background-color: none;
+
+    position: absolute;
+    margin: -120px 0px 0px 207px;
+
+    padding: 0px 0px 0px 0px;
+    border-radius: 5px 5px 5px 5px;
+
+    z-index: 3;
+}
+
+#conteneur_affichage_de_personnes:hover
+{
+    border: 0px solid rgb(55,55,55);
+}
+
+#conteneur_affichage_de_personnes_defil
+{
+    width: 879px;
+	height: 95px;
+
+	border: 0px solid rgb(55,55,55);
+	background-color: none;
+
+    position: absolute;
+    z-index: 3;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding: 0px;
+}
+
+#go_to_menu_4
+{
+    width: 145px;
+	height: 45px;
+
+    background-color: gray;
+    margin-left: 380px;
+
+    position: absolute;
+    border-radius: 10px 10px 0px 0px;
+
+    margin-top: 82px;
+    opacity: 0.3;
+
+    z-index: 4;
+}
+
+#go_to_menu_4:hover
+{
+    opacity: 0.6;
+}
+
+#go_to_menu_4:active
+{
+    opacity: 0.9;
+}
+
+#go_to_bottom_4
+{
+    width: 45px;
+	height: 45px;
+
+    background-color: white;
+    margin-left: 895px;
+
+    position: absolute;
+    border-radius: 23px 0px 0px 23px;
+
+    margin-top: 19px;
+    opacity: 0.3;
+
+
+    z-index: 4;
+}
+
+#go_to_bottom_4:hover
+{
+    opacity: 0.6;
+}
+
+#go_to_bottom_4:active
+{
+    opacity: 0.9;
+}
+
+.photo_affichage_de_personnes
+{
+    display: inline-block;
+    border-radius: 5px 5x 5px 5px;
+
+    width: 80px;
+    height: 80px;
+
+    border: 0px solid rgb(255,128,0);
+    margin-right: 5px;
+
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+
+.genre_affichage_de_personnes
+{
+    position: absolute;
+    margin-left: -86px;
+    margin-top: 3px;
+    width: 19px;
+    height: 19px;
+}
+
+.genre_affichage_de_personnes_comment {
+    position: relative;
+    top: -83px;
+    left: 2px;
+    width: 19px;
+    height: 19px;
+}
+
+.genre_affichage_de_personnes_emetteur {
+    position: relative;
+    top: 23px;
+    left: 22px;
+    z-index: 99;
+    width: 19px;
+    height: 19px;
+}
+
+.genre_affichage_de_personnes_recepteur {
+    position: relative;
+    z-index: 999;
+    top: -125px;
+    left: -48px;
+    width: 19px;
+    height: 19px;
+}
+
+.form_align
+{
+    display: inline-block;
+}
+
+.form_align_offline
+{
+    display: inline-block;
+    opacity: 1;
+}
+
+.form_align_offline:hover
+{
+    opacity: 1;
+}

@@ -1,0 +1,200 @@
+
+.bloc_du_footer
+{
+	  width: 100%;
+	  height: 200px;
+
+	  border: 10px solid black;
+    border-bottom:  0px;
+    border-left: 0px;
+    border-right: 0px;
+
+	  margin-top: 0px;
+    background-color: black;
+
+    box-shadow: 0px 0px 10px black;
+    overflow: hidden;
+
+		-webkit-user-select: none; /* Chrome/Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+}
+
+.bloc_footer_contener
+{
+	width: 1230px;
+	height: 150px;
+
+	border:  0px solid green;
+	margin-top: 15px;
+
+    margin: auto;
+    padding-left: 20px;
+    padding-top: 4px;
+
+    font-family: 'microsoft sans serif normal';
+    font-size: 14px;
+}
+
+.bloc_du_footer_1,.bloc_du_footer_2,.bloc_du_footer_3,.bloc_du_footer_4
+{
+    display: inline-block;
+    vertical-align: top;
+
+	width: 290px;
+	height: 180px;
+
+	border:  0px solid white;
+	margin-top: 5px;
+
+    padding-top: 10px;
+}
+
+.bloc_du_footer_3
+{
+    width: 250px;
+}
+
+
+.bloc_du_footer_4
+{
+    width: 270px;
+    height: 160px;
+
+    box-shadow: 0px 0px 20px black inset;
+    background-image: url('bloc_du_listeur_motif_background.bmp');
+
+    border-radius: 10px 10px 10px 10px;
+    opacity: 0.4;
+
+    padding: 0px 0px 0px 0px;
+}
+
+.mini_bloc_du_footer_4
+{
+    width: 230px;
+    height: 130px;
+
+    border-radius: 10px 10px 10px 10px;
+    padding: 0px 0px 0px 0px;
+
+    border: 1px solid red;
+    position: absolute;
+
+    margin: 5px 0px 0px 295px;
+}
+
+.lumiere_bloc_du_footer_4
+{
+    opacity: 0.1;
+    border-radius: 10px 10px 10px 10px;
+
+    position: absolute;
+    margin: 5px 0px 0px -270px;
+
+    box-shadow: 0px 0px 10px black inset;
+}
+
+
+.intersection_bloc_footer
+{
+    margin-top: 5px;
+    margin-right: 17px;
+    display: inline-block;
+}
+
+.mini_bloc_du_footer
+{
+    //width: 280px;
+    height: 20px;
+
+    border: 0px solid black;
+    margin-bottom: 3px;
+}
+
+.element_du_mini_bloc_du_footer
+{
+    display: inline-block;
+    border-radius: 5px 5px 5px 5px;
+    color: black;
+    background-image: url('background_element_du_mini_bloc_du_footer.bmp');
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 3px;
+    border: 1px solid black;
+    cursor: default;
+}
+
+.element_du_mini_bloc_du_footer:hover
+{
+    background: rgb(255,138,21);
+}
+.element_du_mini_bloc_du_footer:active
+{
+    background: gray;
+}
+
+
+
+
+
+
+
+
+
+
+/*THE LASt OF LAST------------------------*/
+.dedicace
+{
+    color: rgb(131, 131, 131);
+    background-color: black;
+
+    border-top: 7px solid black;
+    width: 100%;
+
+    box-shadow: 0px 0px 0px black;
+
+    margin-top: -5px;
+    border-radius: 0px 0px 0px 0px;
+
+    height: 16px;
+    cursor: default;
+
+    font-family: 'microsoft sans serif normal';
+    font-size: 15px;
+
+		-webkit-user-select: none; /* Chrome/Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+}
+
+.nombre_d_utilisateurs_connectes
+{
+    float: left;
+    margin: -6px 0px 0px 5px;
+}
+.nombre_d_utilisateurs_connectes:hover
+{
+    color: white;
+}
+
+.mise_a_jour
+{
+    margin: -5px 0px 0px 555px;
+    width: 50px;
+}
+.mise_a_jour:hover
+{
+    color: white;
+}
+
+.creator_of_website
+{
+     float: right;
+     margin-right: 5px;
+     margin-top: -19px;
+}
+.creator_of_website:hover
+{
+    color: white;
+}

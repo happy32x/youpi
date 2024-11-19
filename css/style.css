@@ -1,0 +1,343 @@
+@font-face
+{
+    font-family: 'Sakkal Majalla';
+    src: url('font/MAJALLA.TTF') format('truetype');
+
+    font-family: 'time new roman';
+    src: url('font/TIMES.TTF') format('truetype');
+
+    font-family: 'digifaceWide';
+    src: url('font/DIGIFAW.TTF') format('truetype');
+
+    font-family: 'segeo print'
+    src: url('font/SEGOEPR.TTF') format('truetype');
+
+    font-family: 'microsoft sans serif normal';
+    src: url('font/MICROSS.TTF') format('truetype');
+}
+
+html
+{
+   border: 0px solid red;
+   width: 100%;
+   padding: 0px 0px 0px 0px;
+   margin: 0px 0px 0px 0px;
+   min-width: 1300px;
+   height: 1093px;
+   //background-image:linear-gradient(white 95%, #DBDBDB );
+   background-image: url('header_background_b.bmp');
+    background-position: bottom;
+    background-repeat: repeat-x;
+}
+
+#html
+{
+   padding-top: 0px;
+
+   width: 1300px;
+   height: 1095px;
+
+   padding: 0px 0px 0px 0px;
+   margin: 0px 0px 0px 0px;
+
+   margin: auto;
+   box-shadow: 0px 0px 0px black;
+
+   border-radius: 0px 0px 0px 0px;
+   margin-top: -2px;
+
+   overflow: hidden;
+    border-bottom: 0px;
+   box-shadow: 1px 1px 10px #d5d5d5;
+}
+
+body
+{
+   border: 0px solid green;
+
+   width: 100%;
+   min-width: 950px;
+
+   padding: 0px 0px 0px 0px;
+   margin: 0px 0px 0px 0px;
+}
+
+header
+{
+   border: 0px solid red;
+   width: 100%;
+   height: 155px;
+   padding: 0px 0px 0px 0px;
+
+   background-color: white;
+   background-repeat: no-repeat;
+   background-position: bottom;
+
+   overflow: hidden;
+}
+
+.sun_set
+{
+    position: absolute;
+    z-index: 1;
+
+    margin: 10px 0px 0px 10px;
+}
+
+.chat_city
+{
+    position: absolute;
+    z-index: 1;
+
+    margin-top: 120px;
+}
+
+.header_mini
+{
+   border: 0px solid yellow;
+   width: 970px;
+   padding: 0px 0px 0px 0px;
+   margin-left: 180px;
+
+   position: absolute;
+   z-index: 2;
+}
+
+.bulles
+{
+	display: inline-block;
+}
+
+.titre
+{
+	display: inline-block;
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+
+.admin
+{
+	  vertical-align: top;
+	  border-radius: 0px 0px 8px 8px;
+	  height: 20px;
+	  width: 207px;
+	  text-align:center;
+    padding: 0px 0px 0px 0px;
+    margin: auto;
+	  border-top: 0px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(254,128,65);
+    border: 0px solid rgb(255, 128, 0);
+    border-top: 0px;
+    font-family: 'microsoft sans serif normal';
+    font-size: 15px;
+
+    -webkit-user-select: none; /* Chrome/Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+	  position: absolute;
+	  right: 32px;
+	  z-index: 999;
+}
+
+.admin_content_text
+{
+     
+}
+
+
+.admin_content
+{
+	  vertical-align: top;
+	  border-radius: 0px 0px 10px 10px;
+	  height: 20px;
+	  width: 207px;
+	  text-align:center;
+    padding: 0px 0px 0px 0px;
+    margin: auto;
+	  border-top: 0px;
+    color: rgb(255,207,159);
+    background-color: rgb(254,128,65);
+    border: 2px solid rgb(255,204,102);
+    border-top: 0px;
+    font-family: 'microsoft sans serif normal';
+    font-size: 15px;
+
+    -webkit-user-select: none; /* Chrome/Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+	  position: absolute;
+	  right: 31px;
+	  z-index: 999;
+	  overflow: hidden;
+}
+
+.alert_no_finish
+{
+    font-size: 20px;
+}
+
+.roue_parametre
+{
+    position: absolute;
+    width: 18px;
+    height: 17px;
+    right: 157px;
+}
+
+.admin:hover
+{
+    color: white;
+    border: 0px solid rgb(255,128,0);
+    border-top: 0px;
+}
+
+.admin:active
+{
+	color: rgb(255,155,55);
+    background-color: white;
+    border: 0px solid rgb(255,204,102);
+
+    border-top: 0px;
+}
+
+.admin2
+{
+	color: white;
+    cursor: default;
+}
+
+.banniere
+{
+    display: inline-block;
+    width: 720px;
+	border: 0px solid blue;
+	padding: 0px;
+	margin: 0px;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+.banniere_menu
+{
+    display: inline-block;
+    border: 0px solid rgb(0,128,255);
+
+    width: 220px;
+    height: 130px;
+    vertical-align: top;
+}
+
+.message_d_acceuil
+{
+	background-color: white;
+	color: rgb(0,128,255);
+
+	margin: auto;
+    margin-top: 5px;
+	padding: 0px 0px 0px 0px;
+
+	border-radius: 10px 10px 10px 10px;
+	border: 3px solid rgb(255,128,0);
+
+	text-align: center;
+	box-shadow: 1px 1px 6px rgb(255,128,0) inset;
+
+    width: 190px;
+    height: 83px;
+
+    background-image: url('mini_banniere.bmp');
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+	margin-top: 26px;
+}
+
+.cadre_des_illusions
+{
+    background-color: none;
+    position: absolute;
+
+    border-radius: 7px;
+	border: 4px solid rgb(254,128,65);
+
+    margin: -4px 0px 0px -4px;
+
+    width: 190px;
+    height: 83px;
+
+    z-index: 1;
+}
+
+.mini_banniere_d_acceuil
+{
+    width: 190px;
+    height: 83px;
+}
+
+.fond_transparent_message_d_acceuil {
+    background-color: rgb(50,50,50);
+    color: white;
+    position: absolute;
+    padding: 0px 10px 0px 10px;
+    border-radius: 0px 0px 0px 0px;
+    top: 90px;
+    text-align: center;
+    width: 170px;
+    height: 25px;
+    overflow: hidden;
+    opacity: 0.4;
+    cursor: default;
+    z-index: 0;
+    font-family: 'microsoft sans serif normal';
+    font-size: 16px;
+}
+
+.contener_bouton_eclair
+{
+	margin: auto;
+
+    width: 190px;
+    height: 30px;
+
+    padding: 0px 0px 0px 0px;
+}
+
+.bouton_eclair
+{
+	margin: auto;
+    margin-top: 5px;
+	padding: 0px 0px 0px 0px;
+
+	border-radius: 8px 8px 0px 0px;
+	border: 4px solid rgb(254,128,65);
+    border-bottom: 0px;
+
+	text-align: center;
+    text-size: 20px;
+
+    width: 198px;
+    height: 32px;
+
+    overflow: hidden;
+    background-image: url('bouton_eclair_2.bmp');
+
+    margin-left: -4px;
+    background-repeat: repeat-x;
+
+    cursor: pointer;
+}
+
+.bouton_eclair:hover
+{
+    background-image: url('bouton_eclair_hover_2.bmp');
+}
+
+.bouton_eclair:active
+{
+    background-image: url('bouton_eclair_actif_2.bmp');
+}

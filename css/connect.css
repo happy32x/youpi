@@ -1,0 +1,598 @@
+@font-face
+{
+    font-family: 'Sakkal Majalla';
+    src: url('font/MAJALLA.TTF') format('truetype');
+
+    font-family: 'time new roman';
+    src: url('font/TIMES.TTF') format('truetype');
+
+    font-family: 'digifaceWide';
+    src: url('font/DIGIFAW.TTF') format('truetype');
+
+    font-family: 'segeo print'
+    src: url('font/SEGOEPR.TTF') format('truetype');
+
+    font-family: 'microsoft sans serif normal';
+    src: url('font/MICROSS.TTF') format('truetype');
+}
+
+
+#html_acceuil , #body_acceuil
+{
+    padding: 0px 0px 0px 0px;
+
+    min-width: 1200px;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+
+#entete_acceuil {
+    width: 100%;
+    height: 170px;
+    border: 0px solid rgb(255, 128, 0);
+    background-image: url('header_background.bmp');
+    background-repeat: repeat-x;
+    background-position: bottom;
+    margin-top: 0px;
+    border-bottom: 20px solid rgb(254, 128, 65);
+    box-shadow: 0px 0px 0px black;
+    padding-top: 10px;
+}
+
+.slogan_acceuil
+{
+    color: rgb(254, 128, 65);
+    font-size: 30px;
+    font-family: 'segoe print';
+
+    cursor: default;
+    margin: auto;
+
+    border: 0px solid green;
+    margin-top: -50px;
+
+    font-weight: bold;
+    padding-top: 0px;
+}
+
+.text_slogan_acceuil
+{
+    margin-top: 35px;
+}
+
+
+.zone_de_connection_acceuil
+{
+    margin: auto;
+    border: 0px solid green;
+
+    width: 1200px;
+    height: 600px;
+
+    margin-top: 80px;
+}
+
+#carte_du_monde
+{
+    width: 100%;
+    height: 420px;
+
+    border: 0px solid rgb(255,128,64);
+    border-radius: 10px 10px 10px 10px;
+
+    background-image: url('carte-du-monde_back.bmp');
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#gauche_acceuil
+{
+    width: 620px;
+    height: 600px;
+    display: inline-block;
+    word-wrap: break-word;
+    border: 0px solid black;
+    text-align: center;
+}
+
+#droite_acceuil
+{
+    float: right;
+
+    width: 500px;
+    height: 605px;
+
+    display: inline-block;
+    border: 0px solid rgb(255,217,198);
+
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(255, 248, 236);
+}
+
+#person_actual_connect
+{
+    
+    font-family: arial;
+    font-size: 33px;
+    color: #844404;
+    top: 124px;
+    position: relative;
+}
+
+#inscription_acceuil
+{
+    width: 400px;
+    height: 60px;
+
+    border: 0px solid green;
+    border-radius: 10px 10px 10px 10px;
+
+    margin: auto;
+
+    background-image: url('inscription.bmp');
+    background-repeat: no-repeat;
+
+    cursor: pointer;
+    margin-top: 50px;
+    background-color: #fe8041;
+}
+
+#inscription_acceuil:hover
+{
+    background-image: url('inscription_hover.jpg');
+}
+
+#inscription_acceuil:active
+{
+    background-image: url('inscription_active.jpg');
+    box-shadow: 1px 1px 5px black inset;
+}
+
+.sun_set_acceuil
+{
+    vertical-align: top;
+    margin-top: 20px;
+}
+
+.bulles_acceuil
+{
+    margin-left: 90px;
+}
+
+.titre_acceuil
+{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.banniere_acceuil
+{
+    width: 1000px;
+    margin: auto;
+
+    border: 0px solid red;
+}
+
+#entete_acceuil_vertical_bar
+{
+    
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    background-color: #cf6631;
+    top: 198px;
+}
+
+.identification {
+    width: 290px;
+    height: 200px;
+    border: 1px solid rgb(250, 131, 13);
+    border-radius: 10px 10px 10px 10px;
+    margin: auto;
+    margin-top: 60px;
+    padding: 0px 0px 0px 0px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.liens_sociaux
+{
+    width: 950px;
+    height: 50px;
+
+    border: 0px solid black;
+    margin: auto;
+
+    margin-top: 100px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#index_icon
+{
+    margin-left: 125px;
+}
+
+.icon
+{
+    margin-right: 5px;
+}
+
+.titre_name {
+    width: 290px;
+    height: 40px;
+    background-color: rgb(254, 128, 65);
+    margin: 0px 0px 0px 0px;
+    border-radius: 0px 0px 0px 0px;
+    color: white;
+    text-align: center;
+    border-bottom: 5px solid #cf6631;
+}
+
+.text_connectez
+{
+	position: relative;
+	top: 7px;
+
+    font-size: 26px;
+    cursor: default;
+
+    border: 0px solid red;
+    margin-bottom: 0px;
+
+    font-family: 'Sakkal Majalla';
+    font-size: 28px;
+
+}
+
+.form_bas
+{
+    margin-top: -20px;
+}
+
+
+
+#pseudo {
+    width: 200px;
+    margin: 45px 0px 0px 8px;
+    padding: 0px 5px 0px 5px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+#pseudo:hover
+{
+  border: 1px solid rgb(250, 131, 13);
+  background-color: white;
+}
+
+.temoin_pseudo
+{
+	height: 18px;
+	width: 18px;
+
+	display: inline-block;
+	margin: 0px 0px 0px -25px;
+
+	border-radius: 5px 5px 5px 5px;
+	border: 1px solid white;
+
+	background-color: white;
+	vertical-align: bottom;
+}
+
+#password {
+    width: 200px;
+    margin: 10px 0px 0px 8px;
+    padding: 0px 5px 0px 5px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+#password:hover {
+    border: 1px solid rgb(250, 131, 13);
+    background-color: white;
+}
+
+.temoin_password
+{
+	height: 18px;
+	width: 18px;
+
+	display: inline-block;
+
+	margin: 10px 0px 0px -25px;
+
+	border-radius: 5px 5px 5px 5px;
+	border: 1px solid white;
+
+	background-color: white;
+	vertical-align: bottom;
+}
+
+.connection {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 210px;
+    height: 40px;
+    border: 1px solid rgb(250, 131, 13);
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 8px;
+    margin-top: 22px;
+    background-color: rgb(254, 128, 65);
+    font-family: 'Sakkal Majalla';
+    font-size: 30px;
+    cursor: pointer;
+    border-bottom: 5px solid #cf6631;
+}
+
+.connection:hover {
+    //background-color: rgb(255, 156, 57);
+}
+
+.connection:active
+{
+    margin-top: 24px;
+    border-bottom: 3px solid #a45608;
+}
+
+.encadreur_message_d_alerte_bloc
+{
+	width: 290px;
+	margin: auto;
+
+	border: 0px solid red;
+    margin-bottom: 0px;
+}
+
+.message_d_alerte_bloc
+{
+	width: 280px;
+	min-height: 106px;  /*element iportand*/
+
+
+	border: 1px solid red;
+	border-radius: 10px 10px 10px 10px;
+
+	margin-top: 5px;
+
+	padding: 5px 5px 5px 5px;
+	background-color: rgb(225,128,128);
+
+	text-align: justify;
+	display: inline-block; /*element iportand*/
+}
+
+.message_d_alerte
+{
+	display: inline-block;
+	float: right;
+
+	border: 0px solid red;
+	margin: 5px 10px 0px 0px;
+
+	width: 230px;
+
+	color: black;
+	text-align: justify;
+}
+
+.alert_logo
+{
+	display: inline-block;
+	float: left;
+
+	width: 30px;
+	height: 30px;
+}
+
+.alert_text
+{
+	margin: 0px 0px 0px 0px;
+	font-family: 'microsoft sans serif normal';
+}
+
+.alert_text_pirate
+{
+	display: inline-block;
+	float: right;
+
+	border: 0px solid red;
+	margin: 0px 10px 0px 0px;
+
+	width: 230px;
+
+	color: black;
+	text-align: justify;
+}
+
+.deconnection_a_distance
+{
+	border: 1px solid black;
+	margin: 8px 0px 0px 0px;
+
+	width: 230px;
+	min-height: 20px;
+
+	color: white;
+	text-align: center;
+
+	font-size: 15px;
+	font-weight: bold;
+
+	background-color: rgb(255,40,40);
+	border-radius: 5px 5px 5px 5px;
+	cursor: pointer;
+}
+
+.deconnection_a_distance:hover
+{
+	background-color: rgb(255,102,102);
+}
+
+.deconnection_a_distance:active
+{
+	background-color: white;
+	color: red;
+}
+
+.message_de_confirmation
+{
+	width: 280px;
+	min-height: 45px;
+
+	border: 1px solid green;
+	border-radius: 7px 7px 7px 7px;
+
+	margin-top: 5px;
+	margin-right: 10px;
+
+	padding: 5px 5px 5px 5px;
+	background-color: rgb(202,255,202);
+
+	text-align: justify;
+	display:inline-block;
+}
+
+.confirmaion_logo
+{
+	display: inline-block;
+	float: left;
+}
+
+.confirmation_text
+{
+	display: inline-block;
+	float: right;
+
+	border: 0px solid red;
+	margin: 0px 10px 0px 0px;
+
+	width: 230px;
+
+	color: black;
+	text-align: justify;
+	font-family: 'microsoft sans serif normal';
+}
+
+	/*background-color: rgb(225,128,128);*/
+
+
+
+
+#language_button_acceuil
+{
+    display: inline-block;
+    vertical-align: top;
+
+    float: right;
+    color: rgb(255,207,159);
+    background-color: rgb(255,128,0);
+    border: 1px solid rgb(255,204,102);
+
+    text-align: center;
+    border-radius: 0px 0px 0px 10px;
+    padding: 0px 3px 0px 5px;
+
+    border-top: 0px;
+    border-right: 0px;
+    cursor: default;
+
+    font-family: 'microsoft sans serif normal';
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#language_button_acceuil:hover
+{
+    color: white;
+    background-color: rgb(255,155,55);
+    border: 1px solid rgb(255,128,0);
+
+    border-top: 0px;
+    border-right: 0px;
+}
+
+#language_button_acceuil:active
+{
+    color: rgb(255,155,55);
+    background-color: white;
+    border: 1px solid rgb(255,204,102);
+
+    border-top: 0px;
+    border-right: 0px;
+}
+
+#liste_de_langue_acceuil
+{
+    position: absolute;
+
+    background-color: rgb(255,128,0);
+    border: 1px solid rgb(255,204,102);
+
+    border-radius: 10px 0px 0px 10px;
+    width: 500px;
+    height: 300px;
+    z-index: 3;
+
+    right: 0px;
+    top: 26px;
+}
+
+
+
+
+
+
+
+#footer_acceuil_mer_de_lor
+{
+    width: 100%;
+    min-width: 1200px;
+
+    border: 0px solid red;
+
+    font-family: "sakkal majalla", sans-serif;
+    font-size: 18px;
+
+    position: absolute;
+
+    cursor: default;
+    height: 20px;
+
+    font-family: 'Sakkal Majalla';
+    //font-family: 'time new roman';
+    //font-family: 'digifaceWide';
+    //font-family: 'microsoft sans serif normal';
+    font-size: 20px;
+}
+
+.update_acceuil
+{
+    display: inline-block;
+    color: rgb(100,100,100);
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.update_acceuil:hover
+{
+    color: black;
+}
+
+.editor_acceuil
+{
+    float: right;
+    display: inline-block;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    color: rgb(100,100,100);
+}
+
+.editor_acceuil:hover
+{
+    color: black;
+}
